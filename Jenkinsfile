@@ -20,7 +20,7 @@ pipeline {
             dependsOn 'Test'
             steps {
                 // Commands to deploy the application
-                echo 'Deployining after the test completion only'
+                echo 'Deploying the application...'
             }
         }
     }
